@@ -6,6 +6,7 @@ const display = document.querySelector(".calc-display");
 calc.addEventListener("click", function (e) {
   console.log(e);
 
+  //   if(e.target.localName !== "button") (possible guard clause for if the user clicks on the div, don't proceed or do anything (we'll see))
   if (e.target.localName === "button") {
     console.log("Button Clicked");
     console.log(e.target.innerText);
