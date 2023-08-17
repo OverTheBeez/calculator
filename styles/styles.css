@@ -1,0 +1,63 @@
+/* --- COLORS
+Equals - #DA7114
+Numbers - #E9EDEF
+Operators - #CED7DB
+Calculator - #3B3E3F */
+
+.calc-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.calc {
+  background-color: #3b3e3f;
+  margin: 0 auto;
+  max-width: 60rem;
+  padding: 1rem 1rem;
+}
+
+/* Display */
+.calc-display {
+  background-color: #fff;
+  height: 8rem;
+  width: auto;
+  margin-bottom: 0.9rem;
+}
+
+/* Buttons */
+.calc-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+
+.buttons {
+  background-color: #e9edef;
+}
+
+.operator {
+  background-color: #ced7db;
+}
+
+.e-c {
+  background-color: #da7114;
+}
+
+.calc-buttons .buttons {
+  height: 5rem;
+  flex: 1 0 20%;
+}
+
+/* used for making button span 2 columns */
+.double-span {
+  height: 5rem;
+  flex: 1 1 45%;
+  background-color: #e9edef;
+}
+
+/* used for making button span 3 columns */
+.triple-span {
+  height: 5rem;
+  flex: 1 1 70%;
+}
